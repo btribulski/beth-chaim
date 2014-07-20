@@ -1,0 +1,308 @@
+/**
+ * @file
+ * Views Styling
+ */
+
+
+
+.field-label { /*eg. Image label on slideshow*/
+
+
+}
+
+.calendar-calendar .date-nav.clear-block { /* prev/next block on calendar */
+ -khtml-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
+
+}
+
+.view-calendar{
+margin-right: 10px;
+-khtml-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
+  -khtml-box-shadow: 0 2px 5px 0px #ccc;
+-moz-box-shadow: 0 2px 5px 0px #ccc;
+-webkit-box-shadow: 0 2px 5px 0px #ccc;
+box-shadow: 0 2px 7px 0px #8a8a8a;
+}
+
+.calendar-calendar ul.inline {
+display: none;
+}
+
+.calendar-calendar tr {
+  background-color: #f9f9f9;
+}
+
+.calendar-calendar td .inner .view-field, .calendar-calendar td .inner .view-field a {
+font-size: 11px;
+
+}
+
+
+.views-label-entity-id {
+display: none;
+}
+
+.view-id-slideshow_images.view-display-id-block_1 img { /*images in slideshow round borders*/
+-khtml-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  -khtml-box-shadow: 0 1px 3px 0px #000;
+-moz-box-shadow: 0 1px 3px 0px #000;
+-webkit-box-shadow: 0 1px 3px 0px #000;
+box-shadow: 0 1px 3px 0px #000;
+height: 120px !important;
+}
+
+.view-id-slideshow_images.view-display-id-block_1 {
+position: absolute;
+top: 10px;
+left: 325px;
+}
+
+
+/* 
+*****************************************************
+Moved to blocks.css to go across all sidebar 1 blocks
+***************************************************** 
+
+#block-views-upcoming-events-block-1 .view-id-upcoming_events {
+border: 1px solid #137CCC;
+-khtml-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+padding: 5px;
+margin-top: -8px;
+font-size: 10px;
+background: rgba(64, 153, 222, 0.3);
+
+}
+
+
+#block-views-upcoming-events-block-1 .view-id-upcoming_events a  {
+color: #112c38;
+}
+
+
+
+#block-views-new-at-beth-chaim-block-1 .block-title, #block-views-upcoming-events-block-1 .block-title {
+text-align: left;
+background: #084e6d !important;
+color: #fff;
+padding: 5px 0 5px 15px;
+font-weight: normal;
+
+}
+
+#block-views-new-at-beth-chaim-block-1 .view-new-at-beth-chaim {
+border: 1px solid #137CCC;
+-khtml-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+padding: 5px;
+margin-top: -8px;
+font-size: 10px;
+background: rgba(64, 153, 222, 0.3);
+}
+
+#block-views-new-at-beth-chaim-block-1 .view-new-at-beth-chaim a {
+color: #112c38;
+text-shadow: #999 0 1px 0;
+}
+
+#block-views-new-at-beth-chaim-block-1 tr.even, #block-views-upcoming-events-block-1 tr.even {
+background: rgba(241, 241, 241, 0.6);
+}
+
+#block-views-new-at-beth-chaim-block-1 th.views-field {
+color: #272727;
+}
+
+#block-views-new-at-beth-chaim-block-1 td.views-field-name {
+padding: 5px;
+}
+*/
+
+#block-views-synagogue-gallery-block-1 {
+ margin-top: -40px;
+}
+
+#block-views-synagogue-gallery-block-1 .views-slideshow-controls-bottom {
+margin-top: 20px;
+text-align: center;
+}
+
+#block-views-synagogue-gallery-block-1 .tour-img img {
+display: block;
+-khtml-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+height: 500px;
+max-width: 90%;
+margin-top: 10px;
+margin-left: auto !important;
+margin-right: auto !important;
+}
+
+#block-views-synagogue-gallery-block-1 .field-name-body {
+position: absolute;
+bottom: 10px;
+background: rgba(0, 0, 0, 0.5);
+width: 100%;
+text-align: center;
+}
+
+#block-views-synagogue-gallery-block-1 .views-slideshow-cycle-main-frame-row {
+background-color: #010101;
+color: #fff;
+width: 100%;
+-khtml-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+height: 520px;
+
+}
+
+#views_slideshow_controls_text_next_synagogue_gallery-block_1, #views_slideshow_controls_text_previous_synagogue_gallery-block_1, #views_slideshow_controls_text_pause_synagogue_gallery-block_1{
+color: #fef4e9;
+font-size: 11px;
+border: solid 1px #0c63da;
+background: #1a9efa;
+background: -webkit-gradient(linear, left top, left bottom, from(#1a9efa), to(#207af4));
+background: -moz-linear-gradient(top,  #1a9efa,  #207af4);
+padding: 3px 5px 3px 5px;
+cursor: pointer;
+-khtml-border-radius: 6px 6px 6px 6px;
+-moz-border-radius: 6px 6px 6px 6px;
+-webkit-border-radius: 6px 6px 6px 6px;
+border-radius: 6px 6px 6px 6px;
+  -khtml-box-shadow: 0 1px 3px 0px #666;
+-moz-box-shadow: 0 1px 3px 0px #666;
+-webkit-box-shadow: 0 1px 3px 0px #666;
+box-shadow: 0 1px 3px 0px #666;
+}
+
+#views_slideshow_controls_text_next_synagogue_gallery-block_1:hover, #views_slideshow_controls_text_previous_synagogue_gallery-block_1:hover, #views_slideshow_controls_text_pause_synagogue_gallery-block_1:hover {
+background: #2066f4;
+background: -webkit-gradient(linear, left top, left bottom, from(#1199f8), to(#1558f0));
+background: -moz-linear-gradient(top,  #1199f8,  #1558f0);
+
+}
+
+#views_slideshow_controls_text_next_synagogue_gallery-block_1:active, #views_slideshow_controls_text_previous_synagogue_gallery-block_1:active, #views_slideshow_controls_text_pause_synagogue_gallery-block_1:active {
+color: #d1e8ff;
+background: -webkit-gradient(linear, left top, left bottom, from(#206bf4), to(#1a83fa));
+background: -moz-linear-gradient(top,  #206bf4,  #1a83fa);
+}
+
+
+#views_slideshow_slide_counter_synagogue_gallery-block_1 {
+margin-top: 5px;
+font-size: 11px;
+}
+
+#block-views-mensclub-blog-entries-block-1 .views-row, #block-views-rabbi-blog-entries-block-1 .views-row, #block-views-sisterhood-blog-entries-block-1 .views-row, #block-views-news-articles-view-block-1 .views-row {
+margin: 20px;
+padding: 20px;
+background: -webkit-gradient(linear, left top, left bottom, from(rgba(64, 153, 222, 0.1)), to(rgba(64, 153, 222, 0.45)));
+background: -moz-linear-gradient(top,  rgba(64, 153, 222, 0.1),  rgba(64, 153, 222, 0.45));
+-khtml-border-radius: 6px 6px 6px 6px;
+-moz-border-radius: 6px 6px 6px 6px;
+-webkit-border-radius: 6px 6px 6px 6px;
+border-radius: 6px 6px 6px 6px;
+-khtml-box-shadow: 0 1px 3px 0px #666;
+-moz-box-shadow: 0 1px 3px 0px #666;
+-webkit-box-shadow: 0 1px 3px 0px #666;
+box-shadow: 0 1px 3px 0px #666;
+}
+
+#block-views-mensclub-blog-entries-block-1 .reply-to-post-link, #block-views-rabbi-blog-entries-block-1 .reply-to-post-link, #block-views-sisterhood-blog-entries-block-1 .reply-to-post-link, #block-views-news-articles-view-block-1 .reply-to-post-link {
+float: right;
+margin-top: -10px;
+}
+
+#block-views-mensclub-blog-entries-block-1 .views-field-title a, #block-views-rabbi-blog-entries-block-1 .views-field-title a, #block-views-sisterhood-blog-entries-block-1 .views-field-title a, #block-views-news-articles-view-block-1 .views-field-title a {
+font-size: 20px;
+font-weight: bold;
+color: #0C4B7B;
+}
+
+#block-views-mensclub-blog-entries-block-1 .views-field-created-1, #block-views-rabbi-blog-entries-block-1 .views-field-created-1, #block-views-sisterhood-blog-entries-block-1 .views-field-created-1, #block-views-news-articles-view-block-1 .views-field-created-1 {
+margin-top: 10px;
+margin-left: 30px;
+font-size: 11px;
+}
+
+#block-views-mensclub-blog-entries-block-1 .views-field-name-1, #block-views-rabbi-blog-entries-block-1 .views-field-name-1, #block-views-sisterhood-blog-entries-block-1 .views-field-name-1, #block-views-news-articles-view-block-1 .views-field-name-1 {
+margin-left: 30px;
+margin-bottom: 15px;
+border-bottom: 1px dotted #bbb;
+font-size: 11px;
+}
+
+#block-views-mensclub-blog-entries-block-1 .field-name-body, #block-views-rabbi-blog-entries-block-1 .field-name-body, #block-views-sisterhood-blog-entries-block-1 .field-name-body, #block-views-news-articles-view-block-1 .field-name-body {
+border-bottom: 1px dotted #aaa;
+margin-bottom: 20px;
+}
+
+.view-id-staff_info table {
+width: 100%;
+margin-left: 50px;
+font-size: 11px;
+}
+
+.view-id-staff_info img {
+width: 130px;
+height: 180px;
+-khtml-border-radius: 6px 6px 6px 6px;
+-moz-border-radius: 6px 6px 6px 6px;
+-webkit-border-radius: 6px 6px 6px 6px;
+border-radius: 6px 6px 6px 6px;
+  -khtml-box-shadow: 0 1px 3px 0px #666;
+-moz-box-shadow: 0 1px 3px 0px #666;
+-webkit-box-shadow: 0 1px 3px 0px #666;
+box-shadow: 0 1px 3px 0px #666;
+margin: 6px;
+}
+
+.view-id-staff_info .views-field-title {
+font-weight: bold;
+font-size: 12px;
+}
+
+.view-id-staff_info .views-field-title, .view-id-staff_info .views-field-entity-id-2, .view-id-staff_info .views-field-entity-id {
+margin-left: 5px;
+}
+
+.view-id-staff_info .views-view-grid td {
+height: 300px;
+width: 200px;
+}
+
+.view-id-staff_info .views-field.views-field-entity-id-1 {
+float: left;
+margin: -3px 10px 0px 0px;
+}
+
+.view-id-staff_info .views-row {
+border-bottom: 1px solid #EEE;
+border-top: 1px solid white;
+padding: 10px 0px 0px 0px;
+}
+
+.view-id-staff_info .views-row-last {
+	border-bottom: none;
+}
+.view-id-staff_info .views-row-first {
+	border-top: none;
+}

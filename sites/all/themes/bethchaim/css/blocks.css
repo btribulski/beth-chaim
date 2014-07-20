@@ -1,0 +1,393 @@
+/**
+ * @file
+ * Block Styling
+ */
+
+
+.block /* Block wrapper */ {
+  margin-bottom: 1em;
+}
+
+
+.block.first /* The first block in the region */ {
+}
+
+.block.last /* The last block in the region */ {
+}
+
+.block.odd /* Zebra striping for each block in the region */ {
+}
+
+.block.even /* Zebra striping for each block in the region */ {
+}
+
+h2.block-title /* Block title */ {
+}
+
+.block .content /* Block's content wrapper */ {
+  padding-top: 10px;
+}
+
+#block-aggregator-category-1 /* Block for the latest news items in the first category */ {
+}
+
+#block-aggregator-feed-1 /* Block for the latest news items in the first feed */ {
+}
+
+#block-block-1 /* First block created with "Add block" link */ {
+}
+
+#block-blog-recent /* "Recent blog posts" block */ {
+}
+
+#block-book-navigation /* "Book navigation" block for the current book's table of contents */ {
+}
+
+#block-comment-recent /* "Recent comments" block */ {
+}
+
+#block-forum-active /* "Active forum topics" block */ {
+}
+
+#block-forum-new /* "New forum topics" block */ {
+}
+
+#block-locale-language /* Language switcher block */ {
+}
+
+#block-menu-menu-NAME /* Custom menu block  */ {
+}
+
+#block-node-recent /* "Recent content" block */ {
+
+}
+
+tr.odd {
+background: none !important;
+font-size: 12px;
+border-bottom: #999999 1px solid;
+}
+
+tr.odd a, tr.even a {
+padding-right: 5px;
+}
+
+tr.even {
+background: #eee !important;
+border-bottom: 1px solid #CCC;
+font-size: 12px !important;
+}
+
+ul.tips, div.description, .form-item div.description {
+margin: 5px 0;
+line-height: 1.231em;
+font-size: 0.923em;
+color: #666;
+}
+
+
+
+
+#block-node-recent a {
+text-decoration: none !important;
+}
+
+#block-node-recent .node-title a {
+font-weight: normal !important;
+}
+
+#block-node-recent .node-title a:hover {
+text-decoration: underline !important
+}
+
+#node-title {
+padding-left: 10px !important;
+}
+
+#block-logintoboggan-logintoboggan-logged-in {
+position: absolute;
+top: 137px;
+right: 10px;
+font-size: 10px;
+text-align: center;
+
+}
+
+#block-logintoboggan-logintoboggan-logged-in a{
+color: #202020;
+}
+
+#block-logintoboggan-logintoboggan-logged-in a:hover {
+color: #4f4f4f;
+}
+
+.toboggan-unified #login-message {
+font-family: swiss, sans-serif;
+font-size: 34px;
+font-weight: bold;
+}
+
+.toboggan-unified #login-link {
+font-family: swiss, sans-serif;
+-khtml-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+color: #137ccc !important;
+}
+
+.toboggan-unified #login-link a{
+color: #137ccc !important;
+}
+
+.toboggan-unified #register-link {
+font-family: swiss, sans-serif;
+-khtml-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+color: #137ccc !important;
+}
+
+
+#block-block-2 { /*Footer Copyright Credit */
+margin-bottom: -5px;
+font-size: 10px
+}
+
+#block-block-6 {/*Address*/
+width: 200px;
+margin-top: 15px;
+float: right;
+}
+
+#block-block-7 {
+float: right;
+margin-right: 10px;
+margin-top: -20px;
+}
+
+#block-block-7 img {
+margin-bottom: -5px;
+}
+
+#block-block-7 a {   /*View Calendar Link in sidebar1*/
+color: #137CCC;
+text-decoration: none;
+font-size: 15px;
+}
+
+#block-block-7 a:hover {
+text-decoration: underline;
+}
+
+#block-block-8, #block-block-9, #block-block-10 { /*Temple Life Child Links (Block 8) and Services Child Links (Block 9)*/
+vertical-align: middle;
+color: #0C4B7B;
+font-size: 15px;
+background: rgba(64, 153, 222, 0.3);
+border: 1px solid #137CCC;
+-khtml-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+text-shadow: #999 0 1px 0;
+
+}
+
+#block-block-8 ul, #block-block-9 ul, #block-block-10 ul {
+margin-top: -0px;
+}
+
+#block-block-10 li {
+padding-left: 13px;
+padding-bottom: 10px;
+}
+
+#block-block-8 a, #block-block-9 a, #block-block-10 a {
+color: #0C4B7B;
+}
+
+#block-block-8.content, #block-block-9.content, #block-block-10 content {
+margin-top: -0px;
+}
+
+#block-block-11 {
+margin-bottom: -10px;
+height: 30px;
+width: 75px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+#facebook-icon img {
+background: url(/sites/all/themes/bethchaim/images/icon-facebook.png) no-repeat;
+background-position: 0px -20px;
+width: 20px;
+height: 20px;
+}
+
+#facebook-icon:hover img {
+background: url(/sites/all/themes/bethchaim/images/icon-facebook.png) no-repeat;
+width: 20px;
+height: 20px;
+}
+
+#twitter-icon img{
+position: relative;
+top: -24px;
+left: 25px;
+background: url(/sites/all/themes/bethchaim/images/icon-twitter.png) no-repeat;
+background-position: 0px -20px;
+width: 20px;
+height: 20px;
+}
+
+#twitter-icon:hover img {
+background: url(/sites/all/themes/bethchaim/images/icon-twitter.png) no-repeat;
+width: 20px;
+height: 20px;
+}
+
+#linkedin-icon img{
+position: relative;
+top: -48px;
+left: 50px;
+background: url(/sites/all/themes/bethchaim/images/icon-linkedin.png) no-repeat ;
+background-position: 0px -20px;
+width: 20px;
+height: 20px;
+}
+
+#linkedin-icon:hover img{
+background: url(/sites/all/themes/bethchaim/images/icon-linkedin.png) no-repeat;
+width: 20px;
+height: 20px;
+}
+
+#block-node-syndicate /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */ {
+}
+
+#block-poll-recent /* "Most recent poll" block */ {
+}
+
+#block-profile-author-information /* "Author information" block for the profile of the page's author */ {
+}
+
+#block-search-form /* "Search form" block */ {
+}
+
+#block-shortcut-shortcuts /* "Shortcuts" block */ {
+}
+
+#block-statistics-popular /* "Popular content" block */ {
+}
+
+#block-system-main-menu /* "Main menu" block */ {
+}
+
+#block-system-management /* "Management" block for Drupal management menu */ {
+}
+
+#block-system-navigation /* "Navigation" block for Drupal navigation menu */ {
+}
+
+#block-system-user-menu /* "User menu" block for Drupal user menu */ {
+}
+
+#block-system-help /* "System help" block */ {
+}
+
+#block-system-main /* "Main page content" block */ {
+}
+
+#block-system-powered-by /* "Powered by Drupal" block */ {
+}
+
+#block-user-login /* "User login form" block */ {
+  position: absolute;
+  top: 137px;
+  right: 10px;
+  font-size: 10px;
+
+}
+
+#block-user-login a {
+  color:  #202020;
+}
+
+#block-user-login a:hover {
+  color:  #4f4f4f;
+}
+
+#block-user-new /* "Who's new" block for a list of the newest users */ {
+}
+
+#block-user-online /* "Who's online" block for a list of the online users */ {
+}
+
+.user-picture img {
+width: 60px;
+}
+
+.comment-form .username {
+font-size: 11px;
+color: #137ccc; 
+}
+
+#sidebar-first .block {
+	clear: both;
+}
+
+#sidebar-first .block .content {
+border: 1px solid #137CCC;
+-khtml-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+padding: 5px;
+font-size: 10px;
+background: rgba(64, 153, 222, 0.3);
+margin-top: 5px;
+
+}
+/*Exclusions to above */
+#block-block-4 .content,
+#block-block-7 .content {
+	border:none !important;
+	background:none !important;
+	padding:0 !important;
+}
+
+
+#sidebar-first .block .content a  {
+color: #112c38;
+text-shadow: #999 0 1px 0;
+}
+
+
+
+#sidebar-first .block-title {
+text-align: left;
+background: #084e6d !important;
+color: #fff;
+padding: 5px 0 5px 15px;
+font-weight: normal;
+font-family:Tahoma, Geneva, sans-serif;
+
+
+}
+
+#sidebar-first .block .content tr.even{
+background: rgba(241, 241, 241, 0.6);
+}
+
+#sidebar-first .block .content th.views-field {
+color: #272727;
+}
+
+#sidebar-first .block .content td.views-field-name {
+padding: 5px;
+}

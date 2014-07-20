@@ -1,0 +1,69 @@
+/**
+ * @file
+ * Page Background Styling
+ *
+ * The default layout method of Zen doesn't give themers equal-height columns.
+ * However, equal-height columns are difficult to achieve and totally
+ * unnecessary. Instead, use the Faux Columns method described in the following
+ * ALA article:
+ *   http://www.alistapart.com/articles/fauxcolumns/
+ */
+
+
+body {
+  background: url(../images/bg_body.jpg);
+}
+
+
+#page-wrapper {
+  background: #d1e8ea;
+border-radius: 0px 0px 10px 10px;
+-webkit-border-radius: 0px 0px 10px 10px;
+-moz-border-radius: 0px 0px 10px 10px;
+-khtml-border-radius: 0px 0px 10px 10px;
+-khtml-box-shadow: 0 0 5px 5px #888;
+-moz-box-shadow: 0 0 5px 5px #888;
+-webkit-box-shadow: 0 0 5px 5px #999;
+box-shadow: 0 0 5px 5px #888;
+margin-bottom: 20px;
+
+}
+
+
+#page {
+
+}
+
+#header {
+  position: relative;
+  z-index: 2;
+  background: url(../images/bg_header.jpg) repeat-x;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  khtml-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
+    -webkit-box-shadow: 0px 2.6px 4px #000;
+-moz-box-shadow: 0px 2.6px 4px #000;
+box-shadow: 0px 2.6px 3px #000;
+
+
+}
+
+#header .section {
+
+}
+
+#main-wrapper {
+
+}
+
+#main {
+
+
+}
+
+#footer {
+}
+
+#footer .section {
+}

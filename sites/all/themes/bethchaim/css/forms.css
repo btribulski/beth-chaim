@@ -1,0 +1,189 @@
+/**
+ * @file
+ * Form Styling
+ */
+
+
+.form-item,
+.form-checkboxes,
+.form-radios /* Wrapper for a form element (or group of form elements) and its label */ {
+  margin: 1em 0;
+}
+
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error /* Highlight the form elements that caused a form submission error */ {
+  border: 1px solid #c00;
+}
+
+.form-item label /* The label for a form element */ {
+  display: block;
+  font-weight: bold;
+}
+
+.form-item label.option /* The label for a radio button or checkbox */ {
+  display: inline;
+  font-weight: normal;
+}
+
+.form-required /* The part of the label that indicates a required field */ {
+  color: #c00; 
+  font-size: 10px;
+}
+
+.form-item .description /* The descriptive help text (separate from the label) */ {
+  font-size: 0.85em;
+}
+
+.form-checkboxes .form-item,
+.form-radios .form-item /* Pack groups of checkboxes and radio buttons closer together */ {
+  margin: 0.4em 0;
+}
+
+.form-submit /* The submit button */ {
+height: 20px;
+color: #272727;
+font-size: 10px;
+margin-right: 3px;
+margin-bottom: 1px;
+border-radius: 20px;
+-moz-border-radius: 20px;
+border: 1px solid #aaa;
+background: rgba(248, 248, 248, 0.9);
+background: -webkit-gradient(linear, left top, left bottom, from(rgba(248, 248, 248, 0.9)), to(rgba(230, 230, 230, 0.9)));
+background: -moz-linear-gradient(top,  rgba(248, 248, 248, 0.9),  rgba(230, 230, 230, 0.9));
+}
+
+.form-submit:hover{
+cursor: pointer;
+}
+
+.form-submit:active {
+background: rgba(204, 216, 230, 0.9);
+background: -webkit-gradient(linear, left top, left bottom, from(rgba(204, 216, 230, 0.9)), to(rgba(231, 246, 248, 0.9)));
+background: -moz-linear-gradient(top,  rgba(204, 216, 230, 0.9),  rgba(231, 246, 248, 0.9));
+}
+
+.container-inline div,
+.container-inline label /* Inline labels and form divs */ {
+  display: inline;
+}
+
+.tips /* Tips for Drupal's input formats */ {
+}
+
+
+/*
+ * Search (search-block-form.tpl.php)
+ */
+
+.block.block-search.contextual-links-region.first.last.odd {
+
+}
+
+#search-block-form {  /* search form background */
+padding: 3px 2px 1px 2px;
+height: 25px;
+-khtml-border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+-webkit-border-radius: 20px 20px 20px 20px;
+border-radius: 20px 20px 20px 20px;
+background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(220, 220, 220, 0.9)));
+background: -moz-linear-gradient(top,  rgba(202, 202, 202, 0.9),  rgba(235, 235, 235, 0.9));
+}
+
+#search-block-form #edit-search-block-form--2 {  /* search bar */
+-khtml-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: inset 0 3px 8px #5f5f5f;
+  color:  #3c3c3c;
+  padding-left: 7px;
+  padding-right: 7px;
+  height: 18px;
+  border: 1px solid #ccc;
+}
+
+input:focus
+{               /* removes glowing outline that browsers put around search bars when in focus */
+  outline: none;
+  background: #f3f3f3;
+}
+
+
+.content#block-search-form {
+   max-height: 10px;
+
+
+
+ }
+
+#block-search-form /* Wrapper for the search form */ {
+   position: absolute;
+   z-index: 9;
+   top: 94px;
+   right: 7px;
+
+}
+
+
+/*
+ * Drupal's default login form block
+ */
+#user-login-form {
+  text-align: left; /* LTR */
+}
+
+
+/*
+ * OpenID
+ *
+ * The default styling for the OpenID login link seems to assume Garland's
+ * styling of list items.
+ */
+
+#user-login-form ul /* OpenID creates a new ul above the login form's links. */ {
+  margin-bottom: 0; /* Position OpenID's ul next to the rest of the links. */
+}
+
+#user-login-form li.openid-link /* The "Log in using OpenID" link. */ {
+  margin-top: 1em;
+  margin-left: -20px; /* LTR */ /* Un-do some of the padding on the ul list. */
+}
+
+#user-login-form li.user-link /* The "Cancel OpenID login" link. */ {
+  margin-top: 1em;
+}
+
+#user-login ul {
+  margin: 1em 0;
+}
+
+#user-login li.openid-link,
+#user-login li.user-link /* The OpenID links on the /user form. */ {
+  margin-left: -2em; /* LTR */ /* Un-do all of the padding on the ul list. */
+}
+
+
+/*
+ * Drupal admin tables
+ *
+ * We overrode these styles in html-elements.css, but restore them for the admin
+ * section of the site.
+ */
+
+form tbody {
+  border-top: 1px solid #ccc;
+}
+
+form th,
+form thead th {
+  text-align: left; /* LTR */
+  padding-right: 1em; /* LTR */
+  border-bottom: 3px solid #ccc;
+}
+
+form tbody th {
+  border-bottom: 1px solid #ccc;
+}

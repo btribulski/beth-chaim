@@ -1,0 +1,452 @@
+/**
+ * @file
+ * Page Styling
+ *
+ * Style the markup found in page.tpl.php. Also includes some styling of
+ * miscellaneous Drupal elements that appear in the $content variable, such as
+ * ul.links, .pager, .more-link, etc.
+ */
+
+
+/*
+ * Body
+ */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#page-wrapper {
+}
+
+#page {
+}
+
+/*
+ * The skip-link link will be completely hidden until a user tabs to the link.
+ * See the element-focusable rule in system.base.css.
+ */
+#skip-link a,
+#skip-link a:visited {
+  display: block;
+  width: 100%;
+  padding: 2px 0 3px 0;
+  text-align: center;
+  background-color: #666;
+  color: #fff;
+}
+
+/*
+ * Header
+ */
+#header {
+}
+
+#header .section {
+
+}
+
+#logo /* Wrapping link for logo */ {
+  float: left; /* LTR */
+  margin: 5px;
+  padding: 0;
+}
+
+#logo img {
+  vertical-align: bottom;
+}
+
+#name-and-slogan /* Wrapper for website name and slogan */ {
+  float: left;
+  display: none;
+}
+
+h1#site-name,
+div#site-name /* The name of the website */ {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.3em;
+}
+
+#site-name a:link,
+#site-name a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#site-name a:hover,
+#site-name a:focus {
+  text-decoration: underline;
+}
+
+h1#page-title {
+  font-size: 25px;
+  color: #031f2a;
+  font-family: swiss, sans-serif;
+  text-shadow: 1px;
+padding: 5px 5px;
+background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.43, rgb(209,232,234)),
+    color-stop(0.51, rgb(230,241,242)),
+    color-stop(0.75, rgb(250,250,250))
+);
+background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(209,232,234) 43%,
+    rgb(230,241,242) 51%,
+    rgb(250,250,250) 75%
+);
+
+border-radius: 5px;
+ -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+
+
+}
+
+h2.block-title {
+   color: #031f2a;
+   font-size: 18px;
+   text-decoration: none;
+   font-family: modern, sans-serif;
+
+}
+
+#site-slogan /* The slogan (or tagline) of a website */ {
+}
+
+
+.region-header /* Wrapper for any blocks placed in the header region */ {
+   height: 140px;/* Clear the logo */
+}
+
+/*
+ * Main (container for everything else)
+ */
+#main-wrapper {
+}
+
+#main {
+}
+
+/*
+ * Content
+ */
+#content {
+    border: solid 1px #acacac;
+    padding-right: 10px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -khtml-border-radius: 10px 10px 10px 10px;
+background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.43, rgb(250,250,250)),
+    color-stop(0.68, rgb(230,241,242)),
+    color-stop(0.82, rgb(209,232,234))
+);
+background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(250,250,250) 43%,
+    rgb(230,241,242) 68%,
+    rgb(209,232,234) 82%
+);
+}
+
+#content .section {
+}
+
+#mission /* The mission statement of the site (displayed on homepage) */ {
+}
+
+.region-content-top /* Wrapper for any blocks placed in the "content top" region */ {
+}
+
+.breadcrumb /* The path to the current page in the form of a list of links */ {
+  padding-bottom: 0; /* Undo system.css */
+  color: #137CCC;
+  font-size: 11px;
+}
+
+.breadcrumb a {
+  font-size: 11px;
+  color: #137CCC;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+h1.title, /* The title of the page */
+h2.node-title, /* Title of a piece of content when it is given in a list of content */
+h2.block-title, /* Block title */
+h2.title, /* Comment section heading */
+h2.comment-form, /* Comment form heading */
+h3.title /* Comment title */ {
+  margin: 0;
+}
+
+tr.even /* Some tables have rows marked even or odd. */ {
+  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+tr.odd {
+  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+div.messages /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */ {
+}
+
+div.status /* Normal priority messages */ {
+}
+
+div.warning,
+tr.warning /* Medium priority messages */ {
+  /* border: 1px solid #f0c020; */ /* Drupal core uses: 1px solid #f0c020 */
+}
+
+div.error,
+tr.error /* High priority messages. See also the .error declaration below. */ {
+}
+
+.error /* Errors that are separate from div.messages status messages. */ {
+  /* color: #e55; */ /* Drupal core uses a #e55 background */
+}
+
+.warning /* Warnings that are separate from div.messages status messages. */ {
+  /* color: #e09010; */ /* Drupal core uses a #e09010 background */
+}
+
+div.tabs /* See also the tabs.css file. */ {
+}
+
+.help /* Help text on a page */ {
+  margin: 1em 0;
+}
+
+.more-help-link /* Link to more help */ {
+  font-size: 0.85em;
+  text-align: right;
+}
+
+.region-content /* Wrapper for the actual page content */ {
+}
+
+ul.links /* List of links */ {
+  margin: 1em 0;
+  padding: 0;
+
+}
+
+ul.links.inline {
+  margin: 0;
+  display: inline;
+
+}
+
+ul.links li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 0.5em;
+  font-size: 10px;
+
+}
+
+ul.links li a {
+text-decoration: none ;
+color: #031F2A;
+}
+
+ul.links li a:hover {
+text-decoration: underline;
+color: #00518A;
+}
+
+.pager /* A list of page numbers when more than 1 page of content is available */ {
+  clear: both;
+  margin: 1em 0;
+  text-align: center;
+}
+
+.pager a,
+.pager strong.pager-current /* Each page number in the pager list */ {
+  padding: 0.5em;
+}
+
+.feed-icon /* The link to the RSS or Atom feed for the current list of content */ {
+  margin: 1em 0;
+}
+
+.more-link /* Aggregator, blog, and forum more link */ {
+  text-align: right; /* LTR */
+  font-size: 11px;
+  color: #031F2A;
+}
+
+.region-content-bottom /* Wrapper for any blocks placed in the "content bottom" region */ {
+}
+
+/*
+ * First sidebar (on left in LTR languages, on right in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-first
+ * (see the layout.css file.)
+ */
+.region-sidebar-first {
+  position: relative;
+  top: -20px;
+  left: -1110px;
+  z-index: 1;
+  padding-top: 0px;
+  background: url(../images/bg_sidebar.png) repeat-y;
+  background-size: 100%;
+  -moz-background-size: 100% 100%;
+  width: 250px;
+  height: auto;
+
+}
+
+@media screen\9 { /* IE 7 */
+.region-sidebar-first {
+background: transparent;
+}
+
+#sidebar-end {
+display: none;
+}
+
+
+#header_bcaddress {
+margin-top: -33px;
+margin-left: 150px !important;
+}
+
+#twitter-icon img {
+position: relative;
+top: -20px !important;
+left: 25px;
+background: url(/sites/all/themes/bethchaim/images/icon-twitter.png) no-repeat;
+background-position: 0px -20px;
+width: 20px;
+height: 20px;
+}
+
+#linkedin-icon img {
+position: relative;
+top: -40px !important;
+left: 50px;
+background: url(/sites/all/themes/bethchaim/images/icon-linkedin.png) no-repeat;
+background-position: 0px -20px;
+width: 20px;
+height: 20px;
+}
+
+}
+
+@media \0screen { /* IE 8 */
+.region-sidebar-first {
+background: transparent;
+}
+
+#sidebar-end {
+display: none;
+}
+
+}
+
+.region-sidebar-first .section {
+
+}
+
+.region-header-address {
+  position: absolute;
+  top: 40px;
+  left: 920px;
+
+}
+
+#header_bcaddress { /*Address PNG in header*/
+
+margin-top: -33px;
+margin-left: 10px;
+
+}
+
+#sidebar-first {
+  min-height: 500px;
+
+
+}
+
+#sidebar-first .item-list ul li {
+list-style-image: url(/sites/all/files/arrow-list.png);
+margin-left: 5px;
+}
+
+#sidebar-first .item-list .field-content, #sidebar-first .views-label-changed {
+position: relative;
+top: -10px;
+left: 0px;
+}
+
+#sidebar-first .item-list .field-content a {
+font-size: 12px;
+
+}
+
+
+#sidebar-end {
+  background: url(../images/bg_sidebar_end.png) no-repeat;
+  background-size: 100%;
+  -moz-background-size: 100% 100%;
+  height: 40px;
+  width: 250px;
+  position: relative  ;
+  top: 30px;
+  left: -20px;
+  border:none !important;
+  background-color:none !important;
+}
+
+
+
+/*
+ * Second sidebar (on right in LTR languages, on left in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-second
+ * (see the layout.css file.)
+ */
+.region-sidebar-second {
+}
+
+.region-sidebar-second .section {
+}
+
+/*
+ * Footer
+ */
+.region-footer {
+
+}
+
+#footer-message /* Wrapper for the footer message from Drupal's "Site information"
+                   and for any blocks placed in the footer region */ {
+
+
+}
+
+.region-footer {
+}
+
+/*
+ * Page bottom
+ */
+.region-bottom /* Wrapper for any blocks placed in the page bottom region */ {
+}
